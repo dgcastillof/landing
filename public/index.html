@@ -117,9 +117,12 @@
     // ── Editá acá ─────────────────────────────────────────────
     // Solo se muestran las que tienen live: true.
     // img: ícono de la app (carpeta icons/). Si no tiene, se usa la inicial.
+    // url: solo para las que tienen dominio propio (si no, va a sub.DOMAIN).
     const DOMAIN = "dgcastillof.com.ar";
     const PROJECTS = [
       { name: "Moneta",     sub: "moneta", live: true,  img: "icons/moneta.png" },
+      { name: "Fluir de mí",    url: "https://fluirdemi.com.ar",       live: true, img: "icons/fluirdemi.png" },
+      { name: "Utilidades UNA", url: "https://utilidades-una.com.ar", live: true, img: "icons/una.png" },
       { name: "Iris",       sub: "iris",   live: false, img: "icons/iris.svg" },
       { name: "TCG Pocket", sub: "tcg",    live: false, img: "icons/tcg.svg" },
       { name: "Argos",      sub: "argos",  live: false, img: "icons/argos.svg" },
@@ -143,7 +146,7 @@
     function appEl(p) {
       const el = document.createElement("a");
       el.className = "app";
-      el.href = `https://${p.sub}.${DOMAIN}`;
+      el.href = p.url || `https://${p.sub}.${DOMAIN}`;
       el.innerHTML = p.img
         ? `<span class="icon"><img src="${p.img}" alt=""></span>`
         : `<span class="icon fallback" style="${p.c1 ? `--c1:${p.c1};--c2:${p.c2}` : ""}">${p.name[0]}</span>`;

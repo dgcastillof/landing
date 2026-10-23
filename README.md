@@ -8,7 +8,8 @@ Lightsail (el mismo de Moneta, ver `moneta/docs/aws.md`).
 
 ## Sumar o activar una app
 
-En `public/index.html`, en `PROJECTS`: cada app tiene su subdominio y `live`.
+En `public/index.html`, en `PROJECTS`: cada app tiene su subdominio (o `url`
+si tiene dominio propio) y `live`.
 Solo aparecen las que tienen `live: true`. El ícono va en `public/icons/`.
 
 ## Cómo se publica
