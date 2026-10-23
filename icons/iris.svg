@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Iris">
+<rect width="512" height="512" rx="114" fill="#FFFFFF"/>
+<g stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round">
+<path d="M316.6,221.0 L429.4,286.1 A176,176 0 0 1 316.6,421.2 Z" fill="#FF6B5A"/>
+<path d="M316.6,291.0 L316.6,421.2 A176,176 0 0 1 143.2,391.1 Z" fill="#FFB547"/>
+<path d="M256.0,326.0 L143.2,391.1 A176,176 0 0 1 82.6,225.9 Z" fill="#5ED39A"/>
+<path d="M195.4,291.0 L82.6,225.9 A176,176 0 0 1 195.4,90.8 Z" fill="#4FA8FF"/>
+<path d="M195.4,221.0 L195.4,90.8 A176,176 0 0 1 368.8,120.9 Z" fill="#9B7BFF"/>
+<path d="M256.0,186.0 L368.8,120.9 A176,176 0 0 1 429.4,286.1 Z" fill="#FF7FB6"/>
+</g>
+<polygon points="256.0,186.0 316.6,221.0 316.6,291.0 256.0,326.0 195.4,291.0 195.4,221.0" fill="#1C1B22"/>
+<path d="M256,226 Q260,252 286,256 Q260,260 256,286 Q252,260 226,256 Q252,252 256,226 Z" fill="#FFFFFF"/>
+</svg>
