@@ -1,0 +1,12 @@
+# Lo copia landing-actualizar a /srv/apps/caddy/sites/landing.caddy.
+# public/ se copia a /srv/apps/caddy/sites/landing, que dentro del
+# contenedor de Caddy es /etc/caddy/sites/landing.
+dgcastillof.com.ar {
+	root * /etc/caddy/sites/landing
+	encode zstd gzip
+	file_server
+}
+
+www.dgcastillof.com.ar {
+	redir https://dgcastillof.com.ar{uri} permanent
+}

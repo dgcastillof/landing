@@ -1,0 +1,10 @@
+[Unit]
+Description=Buscar commits nuevos de la landing cada minuto
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=landing-actualizar.service
+
+[Install]
+WantedBy=timers.target

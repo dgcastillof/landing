@@ -1,0 +1,11 @@
+[Unit]
+Description=Publicar la landing si main tiene un commit nuevo
+After=docker.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=deploy
+Group=deploy
+ExecStart=/usr/local/bin/landing-actualizar
+TimeoutStartSec=5min
