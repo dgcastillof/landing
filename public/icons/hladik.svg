@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="t">
+<title id="t">Hladík: una abeja vista desde arriba con su sombra quieta en el piso</title>
+<defs>
+<linearGradient id="hladik-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#336352"/><stop offset="1" stop-color="#1D3F33"/></linearGradient>
+<linearGradient id="hladik-wing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E6F0E9" stop-opacity="0.95"/><stop offset="1" stop-color="#A9C4B4" stop-opacity="0.85"/></linearGradient>
+<clipPath id="hladik-abd"><path d="M256,262 C300,262 322,294 322,330 C322,374 290,412 256,432 C222,412 190,374 190,330 C190,294 212,262 256,262 Z"/></clipPath>
+<clipPath id="hladik-head"><ellipse cx="256" cy="168" rx="36" ry="31"/></clipPath>
+</defs>
+<rect width="512" height="512" fill="url(#hladik-bg)"/>
+<g transform="translate(18 24)" opacity="0.55"><g fill="#10291F"><path d="M236,224 C200,196 150,170 112,174 C88,178 84,204 104,220 C136,244 196,244 236,234 Z"/><g transform="translate(512 0) scale(-1 1)"><path d="M236,224 C200,196 150,170 112,174 C88,178 84,204 104,220 C136,244 196,244 236,234 Z"/></g><path d="M238,246 C210,250 170,262 150,286 C138,302 152,318 172,312 C200,304 226,278 242,256 Z"/><g transform="translate(512 0) scale(-1 1)"><path d="M238,246 C210,250 170,262 150,286 C138,302 152,318 172,312 C200,304 226,278 242,256 Z"/></g><path d="M256,262 C300,262 322,294 322,330 C322,374 290,412 256,432 C222,412 190,374 190,330 C190,294 212,262 256,262 Z"/><circle cx="256" cy="226" r="42"/><circle cx="256" cy="168" r="32"/></g></g>
+<path d="M238,246 C210,250 170,262 150,286 C138,302 152,318 172,312 C200,304 226,278 242,256 Z" fill="url(#hladik-wing)" stroke="#FFF9EC" stroke-opacity="0.9" stroke-width="4" stroke-linejoin="round"/>
+<g transform="translate(512 0) scale(-1 1)"><path d="M238,246 C210,250 170,262 150,286 C138,302 152,318 172,312 C200,304 226,278 242,256 Z" fill="url(#hladik-wing)" stroke="#FFF9EC" stroke-opacity="0.9" stroke-width="4" stroke-linejoin="round"/></g>
+<path d="M236,224 C200,196 150,170 112,174 C88,178 84,204 104,220 C136,244 196,244 236,234 Z" fill="url(#hladik-wing)" stroke="#FFF9EC" stroke-opacity="0.9" stroke-width="4" stroke-linejoin="round"/>
+<g transform="translate(512 0) scale(-1 1)"><path d="M236,224 C200,196 150,170 112,174 C88,178 84,204 104,220 C136,244 196,244 236,234 Z" fill="url(#hladik-wing)" stroke="#FFF9EC" stroke-opacity="0.9" stroke-width="4" stroke-linejoin="round"/></g>
+<path d="M228,226 C190,206 150,192 116,194 M190,208 C176,220 158,226 132,224 M234,252 C206,262 178,280 160,298" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/>
+<g transform="translate(512 0) scale(-1 1)"><path d="M228,226 C190,206 150,192 116,194 M190,208 C176,220 158,226 132,224 M234,252 C206,262 178,280 160,298" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/></g>
+<path d="M256,262 C300,262 322,294 322,330 C322,374 290,412 256,432 C222,412 190,374 190,330 C190,294 212,262 256,262 Z" fill="#FFF9EC"/>
+<g clip-path="url(#hladik-abd)"><path d="M262,250 C320,270 336,330 300,440 L340,440 L340,250 Z" fill="#E9DFC6"/><rect x="180" y="296" width="160" height="22" fill="#23483B"/><rect x="180" y="340" width="160" height="22" fill="#23483B"/><rect x="180" y="384" width="160" height="20" fill="#23483B"/></g>
+<path d="M250,432 L256,452 L262,432 Z" fill="#FFF9EC"/>
+<circle cx="256" cy="226" r="42" fill="#FFF9EC"/>
+<path d="M256,184 A42,42 0 0 1 256,268 A30,42 0 0 0 256,184 Z" fill="#E9DFC6"/>
+<path d="M244,146 C238,124 226,108 206,100" fill="none" stroke="#FFF9EC" stroke-width="8" stroke-linecap="round"/>
+<path d="M268,146 C274,124 286,108 306,100" fill="none" stroke="#FFF9EC" stroke-width="8" stroke-linecap="round"/>
+<circle cx="204" cy="99" r="8" fill="#FFF9EC"/><circle cx="308" cy="99" r="8" fill="#FFF9EC"/>
+<ellipse cx="256" cy="168" rx="36" ry="31" fill="#FFF9EC"/>
+<g clip-path="url(#hladik-head)"><ellipse cx="226" cy="164" rx="17" ry="27" fill="#14302A"/><ellipse cx="286" cy="164" rx="17" ry="27" fill="#14302A"/><ellipse cx="231" cy="156" rx="3" ry="6" fill="#BBD1C3" fill-opacity="0.8"/><ellipse cx="281" cy="156" rx="3" ry="6" fill="#BBD1C3" fill-opacity="0.8"/><path d="M232,190 A36,31 0 0 0 280,190 Q256,200 232,190 Z" fill="#E9DFC6"/></g>
+<ellipse cx="256" cy="168" rx="35" ry="30" fill="none" stroke="#FFF9EC" stroke-width="5"/>
+</svg>
