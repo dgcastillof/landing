@@ -68,13 +68,9 @@
       gap: 56px;
     }
     h1 {
-      display: flex; flex-direction: column; align-items: center; gap: 14px;
-      font-size: 1.375rem; font-weight: 600; line-height: 1;
-      letter-spacing: .01em;
-    }
-    h1 img {
-      width: 56px; height: 56px;
-      filter: drop-shadow(0 10px 18px rgba(0, 0, 0, .55));
+      font: 600 1.125rem/1 ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+      letter-spacing: .02em;
+      color: var(--muted);
     }
 
     /* Grilla: las filas se arman en JS (máx. 4 por fila, repartidas parejo) */
@@ -122,10 +118,10 @@
   <div class="bg" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
 
   <main>
-    <h1><img src="asterion.svg" alt="">Asterión</h1>
+    <h1>dgcastillof</h1>
     <nav class="grid" id="grid" aria-label="Proyectos"></nav>
   </main>
-  <footer>© <span id="year"></span> dgcastillof</footer>
+  <footer>© <span id="year"></span></footer>
 
   <script>
     // ── Editá acá ─────────────────────────────────────────────
