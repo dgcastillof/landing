@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Justina: una J que es un brote con dos hojas, saliendo de la tierra">
+  <defs>
+    <linearGradient id="justina-fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FAF5E2"/>
+      <stop offset="1" stop-color="#EADFBE"/>
+    </linearGradient>
+  </defs>
+  <clipPath id="justina-esquinas"><rect width="512" height="512" rx="114"/></clipPath>
+  <g clip-path="url(#justina-esquinas)">
+    <rect width="512" height="512" fill="url(#justina-fondo)"/>
+    <g transform="translate(12 12)">
+      <path d="M300,222 V320 A62,62 0 0 1 176,320" fill="none" stroke="#D3C59B" stroke-width="70" stroke-linecap="round"/>
+      <path d="M296,212 C258,214 214,196 196,144 C192,132 190,124 190,118 C240,112 288,140 296,212 Z" fill="#D3C59B" stroke="#D3C59B" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M308,206 C306,152 338,108 404,100 C412,160 370,200 308,206 Z" fill="#D3C59B" stroke="#D3C59B" stroke-width="12" stroke-linejoin="round"/>
+    </g>
+    <path d="M108,440 C128,408 196,392 256,392 C316,392 384,408 404,440 Z" fill="#8A5A36" stroke="#1C2A1B" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M140,420 C170,404 214,398 250,398" fill="none" stroke="#B07B4F" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="330" cy="424" r="5" fill="#5E3B22"/>
+    <circle cx="356" cy="430" r="3.5" fill="#5E3B22"/>
+    <circle cx="150" cy="432" r="3.5" fill="#5E3B22"/>
+    <circle cx="304" cy="432" r="3" fill="#5E3B22"/>
+    <path d="M300,222 V320 A62,62 0 0 1 176,320" fill="none" stroke="#1C2A1B" stroke-width="70" stroke-linecap="round"/>
+    <path d="M300,222 V320 A62,62 0 0 1 176,320" fill="none" stroke="#5BAE3D" stroke-width="46" stroke-linecap="round"/>
+    <path d="M290,232 V320 A52,52 0 0 1 188,326" fill="none" stroke="#A6DA79" stroke-width="10" stroke-linecap="round"/>
+    <path d="M312,232 V318" fill="none" stroke="#3C8A2A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M296,212 C258,214 214,196 196,144 C192,132 190,124 190,118 C240,112 288,140 296,212 Z" fill="#5BAE3D" stroke="#1C2A1B" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M296,212 C258,214 214,196 196,144 C192,132 190,124 190,118 C230,170 262,196 296,212 Z" fill="#A6DA79"/>
+    <path d="M294,208 C262,186 226,160 196,124" fill="none" stroke="#1C2A1B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M308,206 C306,152 338,108 404,100 C412,160 370,200 308,206 Z" fill="#5BAE3D" stroke="#1C2A1B" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M308,206 C306,152 338,108 404,100 C366,132 330,170 308,206 Z" fill="#A6DA79"/>
+    <path d="M310,202 C336,166 364,132 398,106" fill="none" stroke="#1C2A1B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M296,212 C258,214 214,196 196,144 C192,132 190,124 190,118 C240,112 288,140 296,212 Z" fill="none" stroke="#1C2A1B" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M308,206 C306,152 338,108 404,100 C412,160 370,200 308,206 Z" fill="none" stroke="#1C2A1B" stroke-width="12" stroke-linejoin="round"/>
+
+  </g>
+</svg>
