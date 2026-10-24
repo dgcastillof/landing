@@ -128,15 +128,17 @@
     // Solo se muestran las que tienen live: true.
     // img: ícono de la app (carpeta icons/). Si no tiene, se usa la inicial.
     // url: solo para las que tienen dominio propio (si no, va a sub.DOMAIN).
+    // Se muestran en orden alfabético, sin importar el orden de acá.
     const DOMAIN = "dgcastillof.com.ar";
     const PROJECTS = [
-      { name: "Moneta",     sub: "moneta", live: true,  img: "icons/moneta.png" },
-      { name: "Fluir de mí",    url: "https://fluirdemi.com.ar",       live: true, img: "icons/fluirdemi.png" },
-      { name: "Utilidades UNA", url: "https://utilidades-una.com.ar", live: true, img: "icons/una.png" },
-      { name: "Iris",       sub: "iris",   live: false, img: "icons/iris.svg" },
-      { name: "TCG Pocket", sub: "tcg",    live: false, img: "icons/tcg.svg" },
-      { name: "Argos",      sub: "argos",  live: false, img: "icons/argos.svg" },
-      { name: "Vivero",     sub: "vivero", live: false, img: "icons/vivero.svg" },
+      { name: "Argos",          sub: "argos",  live: false, img: "icons/argos.svg" },
+      { name: "Fluir de mí",    url: "https://fluirdemi.com.ar",      live: true, img: "icons/fluirdemi.png" },
+      { name: "Iris",           sub: "iris",   live: false, img: "icons/iris.svg" },
+      { name: "Moneta",         sub: "moneta", live: true,  img: "icons/moneta.png" },
+      { name: "Quain",          sub: "quain",  live: true,  img: "icons/quain.svg" },
+      { name: "TCG Pocket",     sub: "tcg",    live: false, img: "icons/tcg.svg" },
+      { name: "Utilidades UNA", url: "https://utilidades-una.com.ar", live: true, img: "icons/una.svg" },
+      { name: "Vivero",         sub: "vivero", live: false, img: "icons/vivero.svg" },
     ];
     // ──────────────────────────────────────────────────────────
 
@@ -165,7 +167,10 @@
     }
 
     const grid = document.getElementById("grid");
-    for (const row of splitRows(PROJECTS.filter(p => p.live))) {
+    const visibles = PROJECTS
+      .filter(p => p.live)
+      .sort((a, b) => a.name.localeCompare(b.name, "es", { sensitivity: "base" }));
+    for (const row of splitRows(visibles)) {
       const r = document.createElement("div");
       r.className = "row";
       row.forEach(p => r.appendChild(appEl(p)));
