@@ -3,10 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>dgcastillof</title>
-  <meta name="description" content="Proyectos de dgcastillof.">
+  <title>Asterión</title>
+  <meta name="description" content="Asterión: los proyectos de dgcastillof.">
   <meta name="theme-color" content="#07060c">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%233b1d6e'/><stop offset='1' stop-color='%230e1a3d'/></linearGradient></defs><rect width='32' height='32' rx='8' fill='url(%23g)'/></svg>">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/asterion.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta property="og:title" content="Asterión">
+  <meta property="og:description" content="Los proyectos de dgcastillof.">
+  <meta property="og:url" content="https://dgcastillof.com.ar/">
+  <meta property="og:image" content="https://dgcastillof.com.ar/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <style>
     :root {
       --bg: #07060c;
@@ -58,9 +68,13 @@
       gap: 56px;
     }
     h1 {
-      font: 600 1.125rem/1 ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
-      letter-spacing: .02em;
-      color: var(--muted);
+      display: flex; flex-direction: column; align-items: center; gap: 14px;
+      font-size: 1.375rem; font-weight: 600; line-height: 1;
+      letter-spacing: .01em;
+    }
+    h1 img {
+      width: 56px; height: 56px;
+      filter: drop-shadow(0 10px 18px rgba(0, 0, 0, .55));
     }
 
     /* Grilla: las filas se arman en JS (máx. 4 por fila, repartidas parejo) */
@@ -108,10 +122,10 @@
   <div class="bg" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
 
   <main>
-    <h1>dgcastillof</h1>
+    <h1><img src="asterion.svg" alt="">Asterión</h1>
     <nav class="grid" id="grid" aria-label="Proyectos"></nav>
   </main>
-  <footer>© <span id="year"></span></footer>
+  <footer>© <span id="year"></span> dgcastillof</footer>
 
   <script>
     // ── Editá acá ─────────────────────────────────────────────

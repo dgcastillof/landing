@@ -1,6 +1,6 @@
-# dgcastillof.com.ar
+# Asterión
 
-La página de inicio con los accesos a los proyectos. Es un solo
+La página de inicio de dgcastillof.com.ar, con los accesos a los proyectos. Es un solo
 `public/index.html`, sin build: lo sirve directo el Caddy del servidor de
 Lightsail (el mismo de Moneta, ver `moneta/docs/aws.md`).
 
@@ -11,6 +11,15 @@ Lightsail (el mismo de Moneta, ver `moneta/docs/aws.md`).
 En `public/index.html`, en `PROJECTS`: cada app tiene su subdominio (o `url`
 si tiene dominio propio) y `live`.
 Solo aparecen las que tienen `live: true`. El ícono va en `public/icons/`.
+
+## Logo
+
+`public/asterion.svg` es el original (512 px, esquinas de 114 px). Todo lo
+demás sale de él: `favicon.ico` (16/32/48), `apple-touch-icon.png` (180,
+cuadrado: iOS redondea solo), `icon-192.png` e `icon-512.png` (redondeados),
+`icon-maskable-512.png` (fondo hasta el borde, dibujo al 78% para la zona
+segura de Android) y `og.png` (1200×630, vista previa al compartir el link).
+Si cambia el logo, hay que volver a exportarlos.
 
 ## Cómo se publica
 

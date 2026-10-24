@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Asterión">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C1D63"/><stop offset="1" stop-color="#130B30"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.85" r="0.75"><stop offset="0" stop-color="#FFF6DA"/><stop offset="0.45" stop-color="#FFD27A"/><stop offset="1" stop-color="#F39A45"/></radialGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFC56B" stop-opacity="0.55"/><stop offset="1" stop-color="#FFC56B" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFB861" stop-opacity="0.45"/><stop offset="1" stop-color="#FFB861" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="512" height="512" rx="114" fill="url(#bg)"/>
+<circle cx="88" cy="92" r="5" fill="#F1EEF8" fill-opacity="0.9"/>
+<circle cx="122" cy="58" r="3" fill="#F1EEF8" fill-opacity="0.6"/>
+<circle cx="412" cy="70" r="4" fill="#F1EEF8" fill-opacity="0.8"/>
+<circle cx="440" cy="118" r="2.5" fill="#F1EEF8" fill-opacity="0.55"/>
+<circle cx="60" cy="150" r="2.5" fill="#F1EEF8" fill-opacity="0.5"/>
+<path d="M424,82 Q426.24,93.76 438,96 Q426.24,98.24 424,110 Q421.76,98.24 410,96 Q421.76,93.76 424,82 Z" fill="#F1EEF8" fill-opacity="0.85"/>
+<path d="M88,476 V232 A168,168 0 0 1 424,232 V476 Z" fill="#3B2878"/>
+<path d="M127.48,437.46 V250.8 A128.52,128.52 0 0 1 384.52,250.8 V437.46 Z" fill="#4C3393"/>
+<path d="M157.72,407.94 V265.2 A98.28,98.28 0 0 1 354.28,265.2 V407.94 Z" fill="#6140AA"/>
+<path d="M180.74,385.47 V276.16 A75.26,75.26 0 0 1 331.26,276.16 V385.47 Z" fill="#7D52BD"/>
+<polygon points="88,476 424,476 384.52,437.46 127.48,437.46" fill="#2E1F5C"/>
+<polygon points="127.48,437.46 384.52,437.46 354.28,407.94 157.72,407.94" fill="#3E2A77"/>
+<polygon points="157.72,407.94 354.28,407.94 331.26,385.47 180.74,385.47" fill="#583A93"/>
+<polygon points="180.74,385.47 331.26,385.47 313.62,368.25 198.38,368.25" fill="#7C4F9F"/>
+<path d="M127.48,437.46 V250.8 A128.52,128.52 0 0 1 384.52,250.8 V437.46" fill="none" stroke="#6B55B8" stroke-width="6.33" stroke-linejoin="round"/>
+<path d="M157.72,407.94 V265.2 A98.28,98.28 0 0 1 354.28,265.2 V407.94" fill="none" stroke="#8468CC" stroke-width="5.42" stroke-linejoin="round"/>
+<path d="M180.74,385.47 V276.16 A75.26,75.26 0 0 1 331.26,276.16 V385.47" fill="none" stroke="#A07ED8" stroke-width="4.74" stroke-linejoin="round"/>
+<path d="M198.38,368.25 V284.56 A57.62,57.62 0 0 1 313.62,284.56 V368.25" fill="none" stroke="#C79AD9" stroke-width="4.21" stroke-linejoin="round"/>
+<circle cx="256" cy="284.56" r="138.3" fill="url(#halo)"/>
+<path d="M198.38,368.25 V284.56 A57.62,57.62 0 0 1 313.62,284.56 V368.25 Z" fill="url(#glow)"/>
+<polygon points="198.38,368.25 313.62,368.25 368,476 144,476" fill="url(#beam)"/>
+<path d="M256,265.56 Q258.1,278.46 271,280.56 Q258.1,282.66 256,295.56 Q253.9,282.66 241,280.56 Q253.9,278.46 256,265.56 Z" fill="#FFFFFF"/>
+</svg>
