@@ -73,12 +73,12 @@
       color: var(--muted);
     }
 
-    /* Grilla: las filas se arman en JS (máx. 4 por fila, repartidas parejo) */
+    /* Grilla: las filas se arman en JS (máx. 4 por fila, 3 en pantallas angostas, repartidas parejo) */
     .grid { display: flex; flex-direction: column; align-items: center; gap: 36px; }
     .row { display: flex; justify-content: center; gap: clamp(20px, 6vw, 48px); }
 
     .app {
-      --size: clamp(72px, 20vw, 104px);
+      --size: clamp(60px, 20vw, 104px);
       width: calc(var(--size) + 16px);
       display: flex; flex-direction: column; align-items: center; gap: 12px;
       color: inherit; text-decoration: none;
@@ -171,12 +171,19 @@
     const visibles = PROJECTS
       .filter(p => p.live)
       .sort((a, b) => a.name.localeCompare(b.name, "es", { sensitivity: "base" }));
-    for (const row of splitRows(visibles)) {
-      const r = document.createElement("div");
-      r.className = "row";
-      row.forEach(p => r.appendChild(appEl(p)));
-      grid.appendChild(r);
+    // En celulares 4 por fila no entran: bajamos a 3
+    const angosta = matchMedia("(max-width: 640px)");
+    function render() {
+      grid.replaceChildren();
+      for (const row of splitRows(visibles, angosta.matches ? 3 : 4)) {
+        const r = document.createElement("div");
+        r.className = "row";
+        row.forEach(p => r.appendChild(appEl(p)));
+        grid.appendChild(r);
+      }
     }
+    render();
+    angosta.addEventListener("change", render);
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
